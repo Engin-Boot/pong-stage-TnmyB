@@ -6,7 +6,7 @@ Tracks coordinates of bat and ball
 
 ## Acceptance Criteria
 
-### Scenario:when bat moves as per input
+### Scenario: when bat moves as per input
 
 Given: the initial coordinates of bat and and input
 
@@ -14,10 +14,19 @@ When: player presses button for input
 
 Then: move the bat as per the input duration
 
-### Scenario: when ball moves as per path
+### Scenario: when ball moves as per path finder
 
 Given: the initial coordinates of ball and path direction
 
 When: there is no collision
 
 Then: the ball moves as per the path in a straight line
+
+### Scenario: initial positions
+
+Given: the game starts or after someone scores
+
+When: ball at center of board and bat at middle of its
+line of motion
+
+Then: move the bat as per the input duration
