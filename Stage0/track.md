@@ -14,7 +14,7 @@ When: player presses button for input
 
 Then: move the bat as per the input duration
 
-### Scenario: when ball moves along a straight path as per path_finder()
+### Scenario: when ball moves along a straight path as per path finder
 
 Given: the initial coordinates of ball and path direction
 
