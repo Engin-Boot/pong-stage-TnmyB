@@ -2,8 +2,8 @@
 
 ## Feature
 
-Manages collision between bat and ball, side-boundary and ball,
-back-boundary and ball
+Manages collision between bat and ball, side boundary and ball,
+back boundary and ball
 
 ## Acceptance Criteria
 
@@ -15,19 +15,19 @@ When: coordinates of ball and bat are equal
 
 Then: path finder to give new direction of ball
 
-### Scenario: when side_boundary and ball collide
+### Scenario: when side boundary and ball collide
 
-Given: coordinates of ball and side_boundary
+Given: coordinates of ball and side boundary
 
-When: coordinates of side_boundary and ball are equal
+When: coordinates of side boundary and ball are equal
 
 Then: path finder to give new direction of ball
 
-### Scenario: when back_boundary and ball collide
+### Scenario: when back boundary and ball collide
 
-Given: coordinates of ball and back_boundary
+Given: coordinates of ball and back boundary
 
-When: coordinates of back_boundary and ball are equal
+When: coordinates of back boundary and ball are equal
 
 Then: ball goes in random path from center and score
 increases for a player
