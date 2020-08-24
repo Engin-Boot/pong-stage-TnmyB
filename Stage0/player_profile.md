@@ -17,8 +17,8 @@ Allows user to set name
 ### Scenario: when player enters a name
 
   Given option to enter name
-
+  
   When user enters a name and proceeds
-
+  
   Then user entered name is given to bat
   
