@@ -6,6 +6,7 @@ launch game
 set graphic option(bat, ball, board style)
 set player profile
 select start game
+game begins
 
 ## Movement Initiation
 
