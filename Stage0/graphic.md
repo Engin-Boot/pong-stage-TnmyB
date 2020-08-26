@@ -1,4 +1,4 @@
-# UI and graphic setting
+# Graphic setting
 
 ## Feature
 
