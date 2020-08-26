@@ -2,7 +2,7 @@
 
 ## Feature
 
-To set graphic options and UI
+Manage graphic options, bat, ball or board style
 
 ## Acceptance Criteria
 
