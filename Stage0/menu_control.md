@@ -1,8 +1,8 @@
-# Menu and Control
+# Menu and UI
 
 ## Feature
 
-To start, restart, pause, resume and exit game
+To start, restart, pause, resume and exit game and manage game UI.
 
 ## Acceptance Criteria
 
