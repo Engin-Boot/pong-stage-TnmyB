@@ -2,7 +2,7 @@
 
 ## Feature
 
-Allows user to set name, icons, personalisesd styling
+Allows user to set name, icons, personalised styling
 
 ## Acceptance Criteria
 
