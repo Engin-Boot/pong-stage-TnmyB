@@ -3,19 +3,11 @@
 ## Feature
 
 Manage graphic options, bat, ball or board style
+available in menu
 
 ## Acceptance Criteria
 
 ### Scenario: when player selects graphic options
-
-Given: graphics option
-
-When: player selects graphic option
-
-Then: list of graphic features for bat, ball and
-board are displayed for player to select
-
-### Scenario: when player selects graphics
 
 Given: graphic options to select from
 
