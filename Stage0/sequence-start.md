@@ -6,7 +6,12 @@
 2. set graphic option(bat, ball, board style) if required
 3. set player profile
 4. select start game
-5. game begins(5 second countdown)
+5. game begins(3 second countdown)
+
+Launch Game->>Menu: UI includes start,graphic options, player profile
+Menu->>Graphics: Graphic options for board, ball
+Menu->>Player_Profile: player name, bat graphics, personalize
+Menu->>Start: Track updates ball and bat position, wait 5 seconds
 
 ## Movement Initiation
 
@@ -16,8 +21,18 @@
 4. Collision is detected by collision module
 5. New path of ball after collision set by path finder
 
+Start->>Track_Ball: Ball moves as per path_finder
+Start->>Track_Bat: Bat moves as per input
+Track_Bat->>Collision: Bat-Ball Collision detected by Collision
+Track_Ball->>Collision: Boundary-Ball Collision detected by Collision
+Collision->>Path Finder: change ball path or reset on score
+
 ## One score
 
 1. When ball collides with back boundary of a player
 2. Score increases for the opposite player
 3. Game resumes from initial positions of ball and bat
+
+Collision->>Score: If collide with back boundary
+Collision->>Path Finder: Reset to initial ball, bat position, wait 3 seconds, continue
+Score->>Winner: If score is equal to win condition
