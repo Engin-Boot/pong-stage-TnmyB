@@ -21,3 +21,19 @@ Given: the game is running
 When: game begins or some player scores
 
 Then: wait for 3 seconds, then move ball as per path finder
+
+### Scenario: ball motion is default
+
+Given: no change default motion of ball
+
+When: game begins or resumes
+
+Then: ball moves in default motion
+
+### Scenario: ball motion
+
+Given: ball motion is not default
+
+When: game begins or resumes and some characteristic change in ball
+
+Then: ball moves with changed characteristic motion
